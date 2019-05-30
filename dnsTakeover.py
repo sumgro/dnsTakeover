@@ -146,7 +146,7 @@ def azureservice(primaryName, cname):
 
 def s3bucket(primaryName, cname):
     r = requests.get('https://{}'.format(cname), verify=False)
-    if 'Bucket not found' in r.text:
+    if 'NoSuchBucket' in r.text:
         print(bcolors.FAIL + "Possble takeover of {} with CNAME {}".format(primaryName, cname) + bcolors.ENDC)
 
 

@@ -4,7 +4,14 @@ Simple but effective bash script to check a domain if it's vulnerable to subdoma
 	
 * cloudapp.net
 * azurewebsites.net
+* trafficmanager.net
+* azure-api.net
+* cloudapp.net
+* azureedget.net
+* azure-api.net
+* p.azurewebsites.net
 * s3.amazonaws.com
+* s3-websites
 * cargocollective.com
 * desk.com
 * redirect.feedpress.me
